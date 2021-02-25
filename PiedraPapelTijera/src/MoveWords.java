@@ -33,6 +33,7 @@ public class MoveWords{
     public String randomMove(){
 	    float p = rnd.nextFloat();
 	    return validMoves[ (int) (p * validMoves.length)];
+	    
     }
 
     public void showMoves(){
